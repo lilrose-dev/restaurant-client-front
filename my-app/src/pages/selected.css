@@ -1,0 +1,180 @@
+.quantity-btn {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+.cart-btn {
+  display: block;
+  width: 100%;
+}
+
+.order-btn {
+  position: absolute;
+  top: 18px;
+  right: 50px;
+}
+
+.quantity-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.product-quantity {
+  width: 45px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.quantity-title {
+  text-align: left;
+  margin-right: 70px;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control {
+  width: 250px;
+}
+
+.label {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.price-h5 {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.cart-open-btn-wrapper {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  
+  margin-left: auto;
+  position: relative;
+  top: 7px;
+  right: 20px;
+  margin-top: 20px;
+}
+
+.btnbasket{
+  margin: 0;
+  width: 66px;
+  height: 66px;
+  background-color: #fff !important;
+  border-radius: 50% !important;
+}
+
+.cart-open-btn-wrapper p {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  top: -5px;
+  right: 0;
+  margin: 0;
+  background-color: #d61010;
+}
+
+.cart-open-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+}
+
+.cart-open-btn:hover {
+  background-color: rgba(202, 194, 194, 0.368) !important;
+}
+
+.cart-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.cart-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: rgba(198, 196, 196, 0.283);
+}
+
+.cart-title-wrapper {
+  margin-left: 10px;
+}
+
+.cart-title {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.cart-price {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(243, 67, 67);
+}
+
+.delete-btn:hover {
+  box-shadow: 4px 4px 5px #666;
+}
+
+.delete-btn:active {
+  box-shadow: 1px 1px 3px #333;
+}
+
+.delete-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+  right: 5px;
+  width: 40px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+
+.basketBtn {
+  justify-content: center !important;
+  display: block;
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+}
