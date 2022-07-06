@@ -23,6 +23,7 @@
 
 .cardWrapper{
     flex-wrap: wrap;
+    justify-content: space-between;
     position: relative;
     margin: 0;
     padding: 10px;
