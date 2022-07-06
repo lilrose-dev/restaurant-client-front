@@ -115,7 +115,7 @@ function Selected() {
         <p className="sp">{test}</p>
        <div className="btnbasket">
           <button className="basketBtn">
-            <img className='basketImg' onClick={handleShow} height={"50px"} width={"50px"} src={Basket} alt="basket" />
+            <img className='basketImg' onClick={handleShow} height={"50px"} width={"50px"} src={Basket} alt="basket"/>
           </button>
        </div>
       </div>

@@ -22,6 +22,7 @@
 }
 
 .cardWrapper{
+    flex-wrap: wrap;
     position: relative;
     margin: 0;
     padding: 10px;
