@@ -5,6 +5,7 @@ import Basket from '../assets/img/basket.png'
 import DelIcon from '../assets/img/delete.png'
 
 import { useEffect, useState, useRef, useContext } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Context } from '../context/context'
 import { Button, Offcanvas } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,6 +13,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Selected() {
+
+  let navigate = useNavigate()
+  console.log(navigate);
+
   const [ food, setFood ] = useState()
   const [ test, setTest ] = useState()
   const [ show, setShow ] = useState(false)
@@ -80,7 +85,9 @@ function Selected() {
         count: productQuantity.innerHTML - 0
       }
     });
-    alert("Please click OK to confirm your order!");
+    alert('Please click OK to confirm your order!')
+    
+    
   }
 
 
