@@ -13,9 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Selected() {
-
-  let navigate = useNavigate()
-  console.log(navigate);
+  const navigate = useNavigate()
 
   const [ food, setFood ] = useState()
   const [ test, setTest ] = useState()
@@ -86,6 +84,8 @@ function Selected() {
       }
     });
     alert('Please click OK to confirm your order!')
+    
+      navigate('/',{replace: true}) 
     
   }
 
