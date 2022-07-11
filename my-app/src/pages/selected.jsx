@@ -87,7 +87,6 @@ function Selected() {
     });
     alert('Please click OK to confirm your order!')
     
-    
   }
 
 
@@ -128,8 +127,6 @@ function Selected() {
       </div>
 
       {/* Order */}
-
-     
 
       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog">
